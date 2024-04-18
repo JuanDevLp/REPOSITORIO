@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+	--primary-color: #ff523b;
+	--background-color: #f9f5f0;
+	--dark-color: #000000;
+}
+
+html {
+	font-size: 70.5%;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: block;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+.hd1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    gap: 20px;
+    background-color: var(--background-color); 
+    margin-bottom: 1vh;
+}
+
+.mn1{
+    width: 100%;
+    height: 69vh;
+}
+
+.ft1{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: var(--background-color);
+    margin: 0;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.dt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    border: solid 0 ;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.bt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    border: solid 0 ;
+    background-color: transparent;
+    color:var(--primary-color);
+}
+
+.dt1:hover{
+    background-color: var(--dark-color);
+}
+
+
+/* estructura de la card */
+
+.card-1{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    width: 60%;
+    height: 90%;
+    background-color: var(--background-color);
+    border-radius: 0px;
+}
+
+.inf-ig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(270deg ,#ff523b, #ff523b51 ,#ff6a5700 ) ,  url(/img/blog-1.webp);
+    background-size: cover;
+    background-position: right;
+}
+
+.inf-pd{
+    width: 50%;
+    height: 90%;
+    background-color: var(--dark-color);
+    margin-top: 2%;
+    color: var(--background-color);
+    padding: 10px;
+}
+
+.ig-1{
+    width: 70%;
+    border-radius: 10px;
+}
+
+.pd-1{
+    height: 10%;
+    width: 100%;
+}
+
+.pd-2{
+    height: 70%;
+    width: 100%;
+}
+
+.pd-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+.pd-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 15px;
+    color: var(--background-color);
+}
+
+.pd-4:hover{
+    height: 110%;
+}

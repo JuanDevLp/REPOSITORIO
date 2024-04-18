@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BELLOS</title> 
+    <link rel="stylesheet" href="index.css" />
+  </head> 
+  <body>
+    <header> 
+      <div class="container-hero">
+        <div class="container hero">
+          <div class="customer-support">
+            
+              <i class="fa-solid fa-headset"></i>
+            
+            <div class="content-customer-support">
+              <span class="text">Soporte al cliente</span>
+              <span class="number">305-463-3719</span>
+            </div>
+          </div>
+
+          <div class="container-logo">
+            <i class="fa-solid fa-burger"></i>
+            <h1 class="logo"><a href="/">BELLOS</a></h1>
+          </div>
+
+          <div class="container-user">
+            <a href="login.html"><i class="fa-solid fa-user" id="merch"></i></a>
+            <i class="fa-solid fa-basket-shopping"></i>
+            <div class="content-shopping-cart">
+              <span class="text">Carrito</span>
+              <span class="number">(0)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-navbar">
+        <nav class="navbar container">
+          <i class="fa-solid fa-bars"></i>
+          <ul class="menu">
+            <li><a href="#init1">Inicio</a></li>
+            <li><a href="/views/hamburguesa/ham.html">Hamburguesa</a></li>
+            <li><a href="/views/pizza/piz.html">Pizza</a></li>
+            <li><a href="/views/salchipapa/sal.html">Salchipapa</a></li>
+            <li><a href="#esp1">Más</a></li>
+            <li><a href="#bloginit">Blog</a></li>
+          </ul>
+
+          <form class="search-form">
+            <input type="search" placeholder="Buscar..." />
+            <button class="btn-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="content-banner">
+        <p>Comidas Rapidas</p>
+        <h2>100% Delicioso <br />Salchipapa</h2>
+        <a href="/login.html">Comprar ahora</a>
+      </div>
+    </section>
+
+    <main class="main-content">
+      <section class="container container-features">
+        <div class="card-feature">
+          <i class="fa-solid fa-plane-up"></i>
+          <div class="feature-content">
+            <span>Envío gratuito a nivel Colombia</span>
+            <p>En pedido superior a $50.000</p>
+          </div>
+        </div>
+        <div class="card-feature">
+          <i class="fa-solid fa-wallet"></i>
+          <div class="feature-content">
+            <span>Reembolso</span>
+            <p>En caso de errores o daños de envio</p>
+          </div>
+        </div>
+        <div class="card-feature">
+          <i class="fa-solid fa-gift"></i>
+          <div class="feature-content">
+            <span>Tarjeta regalo especial</span>
+            <p>Ofrece bonos especiales con regalo</p>
+          </div>
+        </div>
+        <div class="card-feature">
+          <i class="fa-solid fa-headset"></i>
+          <div class="feature-content">
+            <span>Servicio al cliente 24/7</span>
+            <p>LLámenos 24/7 al 305-464-3719</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container top-categories">
+        <h1 class="heading-1" id="init1">Mejores Categorías</h1>
+        <div class="container-categories">
+          <div class="card-category category-empanada">
+            <p>Empanadas</p>
+            <span>Ver más</span>
+          </div>
+          <div class="card-category category-pollo">
+            <p>Pollo asado</p>
+            <span>Ver más</span>
+          </div>
+          <div class="card-category category-las">
+            <p>Lasaña</p>
+            <span>Ver más</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="container top-products">
+        <h1 class="heading-1">Mejores Productos</h1>
+
+        <div class="container-options">
+          <span class="active">Destacados</span>
+          <span>Más recientes</span>
+          <span>Mejores Vendidos</span>
+        </div>
+
+        <div class="container-products">
+          <!-- Producto 1 -->
+          <div class="card-product">
+            <div class="container-img">
+              <img
+                src="img/salchipapa-pd.png"
+                alt="Cafe Irish"
+                style="margin-top: 30%; margin-bottom: 20.5%"
+              />
+              <span class="discount">-13%</span>
+              <div class="button-group">
+                <span>
+                  <i class="fa-regular fa-eye"></i>
+                </span>
+                <span>
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-code-compare"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Salchipapa</h3>
+              <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <p class="price">$5.000 <span>$7.0000</span></p>
+            </div>
+          </div>
+          <!-- Producto 2 -->
+          <div class="card-product">
+            <div class="container-img">
+              <img
+                src="img/pasta-pd.png"
+                alt="Pasta Boloñesa"
+                style="margin-top: 5%"
+              />
+              <span class="discount">-22%</span>
+              <div class="button-group">
+                <span>
+                  <i class="fa-regular fa-eye"></i>
+                </span>
+                <span>
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-code-compare"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Pasta a la Boloñesa</h3>
+              <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <p class="price">$6.700 <span>$7.300</span></p>
+            </div>
+          </div>
+          <!-- Producto 3 -->
+          <div class="card-product">
+            <div class="container-img">
+              <img
+                src="img/bandeja-pd.png"
+                alt="Bandeja paisa"
+                style="margin-top: 5%"
+              />
+              <div class="button-group">
+                <span>
+                  <i class="fa-regular fa-eye"></i>
+                </span>
+                <span>
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-code-compare"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Bandeja paisa</h3>
+              <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <p class="price">$7.200</p>
+            </div>
+          </div>
+          <!-- Producto 4 -->
+          <div class="card-product">
+            <div class="container-img">
+              <img
+                src="img/pizza-pd.png"
+                alt="Cafe Helado"
+                style="margin-top: 40%; margin-bottom: 20%"
+              />
+              <div class="button-group">
+                <span>
+                  <i class="fa-regular fa-eye"></i>
+                </span>
+                <span>
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-code-compare"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Pizza</h3>
+              <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <p class="price">$5.600</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <img
+          src="img/gallery-1.jpg"
+          alt="Gallery Img1"
+          class="gallery-img-1"
+        /><img
+          src="img/gallery-2.jpg"
+          alt="Gallery Img2"
+          class="gallery-img-2"
+        /><img
+          src="img/gallery-3.webp"
+          alt="Gallery Img3"
+          class="gallery-img-3"
+        /><img
+          src="img/gallery-4.webp"
+          alt="Gallery Img4"
+          class="gallery-img-4"
+        /><img
+          src="img/gallery-5.jpg"
+          alt="Gallery Img5"
+          class="gallery-img-5"
+        />
+      </section>
+
+      <section class="container specials">
+        <h1 class="heading-1" id="esp1">Especiales</h1>
+
+        <div class="container-products">
+          <!-- Nugget -->
+          <div class="card-product">
+            <div class="container-img">
+              <img src="img/nugget-sp.png" alt="Nugget's" />
+              <span class="discount">-13%</span>
+              <div class="button-group">
+                <span>
+                  <i class="fa-regular fa-eye"></i>
+                </span>
+                <span>
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-code-compare"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Nugget's</h3>
+              <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <p class="price">$6.354 <span>$7.300</span></p>
+            </div>
+          </div>
+          <!-- Tacos -->
+          <div class="card-product">
+            <div class="container-img">
+              <img
+                src="img/tacos-sp.webp"
+                alt="Tacos"
+                style="margin-top: 25%; margin-bottom: 25%"
+              />
+              <span class="discount">-22%</span>
+              <div class="button-group">
+                <span>
+                  <i class="fa-regular fa-eye"></i>
+                </span>
+                <span>
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-code-compare"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Tacos</h3>
+              <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <p class="price">$5.700 <span>$7.300</span></p>
+            </div>
+          </div>
+          <!-- Perro caliente -->
+          <div class="card-product">
+            <div class="container-img">
+              <img
+                src="img/perrocaliente-sp.png"
+                alt="Perro caliente"
+                style="margin-top: 20%; margin-bottom: 12%"
+              />
+              <span class="discount">-30%</span>
+              <div class="button-group">
+                <span>
+                  <i class="fa-regular fa-eye"></i>
+                </span>
+                <span>
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-code-compare"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3>Perro Caliente</h3>
+              <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <p class="price">$3.850 <span>$5.500</span></p>
+            </div>
+          </div>
+          <!-- Arroz chino -->
+          <div class="card-product">
+            <div class="container-img">
+              <img
+                src="img/arrozchino-sp.png"
+                alt="Arrozchino"
+                style="margin-top: 25%; margin-bottom: 10%"
+              />
+              <div class="button-group">
+                <span>
+                  <i class="fa-regular fa-eye"></i>
+                </span>
+                <span>
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-code-compare"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-card-product">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>Arroz Chino</h3>
+              <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <p class="price">$5.600</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container blogs">
+        <h1 class="heading-1" id="bloginit">Últimos Blogs</h1>
+
+        <div class="container-blogs">
+          <div class="card-blog">
+            <div class="container-img">
+              <img src="img/blog-1.jpg" alt="Imagen Blog 1" class="img-blog" />
+              <div class="button-group-blog">
+                <span>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-link"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-blog">
+              <h3>Por que la Hamburguesa te vuelve feliz</h3>
+              <span>10 Noviembre 2023</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                molestiae! Ratione et, dolore ipsum quaerat iure illum
+                reprehenderit non maxime amet dolor voluptas facilis corporis,
+                consequatur eius est sunt suscipit?
+              </p>
+              <div class="btn-read-more">Leer más</div>
+            </div>
+          </div>
+          <div class="card-blog">
+            <div class="container-img">
+              <img src="img/blog-2.webp" alt="Imagen Blog 2" class="img-blog" />
+              <div class="button-group-blog">
+                <span>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-link"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-blog">
+              <h3>Comer con amigos</h3>
+              <span>22 Febrero 2024</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                molestiae! Ratione et, dolore ipsum quaerat iure illum
+                reprehenderit non maxime amet dolor voluptas facilis corporis,
+                consequatur eius est sunt suscipit?
+              </p>
+              <div class="btn-read-more">Leer más</div>
+            </div>
+          </div>
+          <div class="card-blog">
+            <div class="container-img">
+              <img src="img/blog-3.jpg" alt="Imagen Blog 3" class="img-blog" />
+              <div class="button-group-blog">
+                <span>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <span>
+                  <i class="fa-solid fa-link"></i>
+                </span>
+              </div>
+            </div>
+            <div class="content-blog">
+              <h3>Ventajas de la lasaña</h3>
+              <span>26 Mayo 2022</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                molestiae! Ratione et, dolore ipsum quaerat iure illum
+                reprehenderit non maxime amet dolor voluptas facilis corporis,
+                consequatur eius est sunt suscipit?
+              </p>
+              <div class="btn-read-more">Leer más</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="owners">
+        <h1>Sitio web hecho por:</h1>
+        <ul>
+          Juan Lopez
+        </ul>
+        <ul>
+          Felipe Garcia
+        </ul>
+      </div>
+
+      <div class="ref">
+        <h1>Pagina referencia:</h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/L3tal8ATx5o?si=-xy9S-MMqmopPvH9"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+		  class="t1t"
+		  "
+        ></iframe>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/81581fb069.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
